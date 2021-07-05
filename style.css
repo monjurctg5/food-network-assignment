@@ -1,3 +1,82 @@
 body{
-    background-color: rgb(12, 137, 196);
+    margin: 0;
+    text-decoration: none;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* for first section */
+
+.healty-food{
+    display: flex;
+  
+}
+.top-banner{
+    background-image: url("./images/shapes/Frame\ 57.jpg");
+    background-repeat: no-repeat;
+
+}
+.half-width{
+    width: 50%;
+    padding-top: 6%;
+    padding-left: 6%;
+}
+
+h1{
+    font-size:40px;
+}
+
+
+.half-width span{
+    color: orange;
+}
+
+img{
+    width: 100%;
+    
+}
+
+
+button{
+    background-image: linear-gradient(tomato,orange);
+    padding: 15px 40px;
+    border-radius:50px;
+    margin-top: 30px;
+    border: none;
+}
+button a{
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+/* firs section end */
+
+
+/* secound section */
+.about-me{
+    display: flex;
+
+}
+
+
+.about-banner{
+    background-image: url("./images/shapes/Frame\ 58.jpg");
+}
+.recipies{
+    text-align: center;
+    margin: 0px 200px;
+   
+}
+.recipies-container{
+    display: flex;
+}
+#recip{
+    padding: 0px 50px ;
+}
+.recipies-item{
+    margin-left: 2%;
+    box-shadow: 10px 10px 30px gray;
+    padding: 10px;
 }
