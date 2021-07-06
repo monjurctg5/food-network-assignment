@@ -95,6 +95,19 @@ button a{
    
 
 }
+.optional img{
+    width: 60px;
+    border-radius: 50%;
+}
+.optional-item{
+    padding:0px 60px 0px;
+}
+
+.booking{
+    display: flex;
+
+}
+
 
 footer{
     background-color: rgb(29, 24, 24);
@@ -105,4 +118,28 @@ footer{
 footer span{
     color: orange;
 }
+input {
+   
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 14px;
+  
+}
+textarea{
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+  
+}
+form{
+    box-shadow: 10px 10px 30px gray;
+    margin-right: 30px;
+   text-align: center;
+   border-radius: 20px;
+   padding-bottom: 10px;
+
+    
+}
+
 
