@@ -13,8 +13,9 @@ body{
   
 }
 .top-banner{
-    background-image: url("./images/shapes/Frame\ 57.jpg");
-    background-repeat: no-repeat;
+    background-image: url("./images/shapes/Group\ 8446.png");
+    background-repeat: no-repeat;width: 100%;
+
 
 }
 .half-width{
@@ -51,6 +52,14 @@ button a{
     text-decoration: none;
 }
 
+#order-right{
+    padding-bottom:70px;
+    
+}
+#order-right img{
+    border-radius:50%;
+}
+
 /* firs section end */
 
 
@@ -64,11 +73,13 @@ button a{
 .about-banner{
     background-image: url("./images/shapes/7.png");
     background-repeat: no-repeat;
+    width: 100%;
 
 }
 #about-me{
     padding-right: 200px;
 }
+
 .recipies{
     text-align: center;
     margin: 0px 200px;
@@ -76,6 +87,7 @@ button a{
 }
 .recipies-container{
     display: flex;
+
 }
 #recip{
     padding: 0px 50px ;
@@ -100,24 +112,17 @@ button a{
     border-radius: 50%;
 }
 .optional-item{
-    padding:0px 60px 0px;
+    padding:8px 60px ;
 }
 
 .booking{
     display: flex;
+   
 
 }
 
 
-footer{
-    background-color: rgb(29, 24, 24);
-    height: 130px;
-    text-align: center;
-    margin-top: 60px;
-}
-footer span{
-    color: orange;
-}
+
 input {
    
     border-radius: 20px;
@@ -141,5 +146,21 @@ form{
 
     
 }
+#booking-form{
+    padding-top: 40px;
+}
 
 
+footer{
+    background-color: rgb(29, 24, 24);
+    height: 150px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 70px;
+}
+footer span{
+    color: orange;
+}
+footer p{
+    color: white;
+}
