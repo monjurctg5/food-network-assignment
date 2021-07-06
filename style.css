@@ -62,7 +62,12 @@ button a{
 
 
 .about-banner{
-    background-image: url("./images/shapes/Frame\ 58.jpg");
+    background-image: url("./images/shapes/7.png");
+    background-repeat: no-repeat;
+
+}
+#about-me{
+    padding-right: 200px;
 }
 .recipies{
     text-align: center;
@@ -100,3 +105,4 @@ footer{
 footer span{
     color: orange;
 }
+
