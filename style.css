@@ -40,7 +40,7 @@ img{
 
 button{
     background-image: linear-gradient(tomato,orange);
-    padding: 15px 40px;
+    padding: 10px 40px;
     border-radius:50px;
     margin-top: 30px;
     border: none;
@@ -79,4 +79,24 @@ button a{
     margin-left: 2%;
     box-shadow: 10px 10px 30px gray;
     padding: 10px;
+    border-radius: 10px;
+}
+
+.optional{
+    box-shadow: 10px 10px 30px gray;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 10px;
+   
+
+}
+
+footer{
+    background-color: rgb(29, 24, 24);
+    height: 130px;
+    text-align: center;
+    margin-top: 60px;
+}
+footer span{
+    color: orange;
 }
